@@ -17,7 +17,8 @@
         <description format="text/plain">Sencha Touch Library</description>
         <maturity>0</maturity>
 
-        <provides url="senchatouch-v211" version="0.1d"/>
+        <provides url="sencha-touch-v211" version="4.1.0.0.0"/>
+        <provides url="sencha-touch" version="4.1.0.0.0"/>
 
         <callbacks>
         </callbacks>
