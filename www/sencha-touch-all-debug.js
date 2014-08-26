@@ -104693,8 +104693,10 @@ Ext.define('Ext.tab.Tab', {
         {
             tag: 'span',
             className: Ext.baseCSSPrefix + 'button-icon',
-            reference: 'iconElement',
-            style: 'visibility: hidden !important'
+            reference: 'iconElement'
+
+	    // fraber 140815: Icon not visible on Android
+	    // ,style: 'visibility: hidden !important'
         },
         {
             tag: 'span',

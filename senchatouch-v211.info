@@ -10,14 +10,14 @@
     <inherit-templates-p>f</inherit-templates-p>
     <auto-mount>senchatouch-v211</auto-mount>
 
-    <version name="0.1d" url="http://openacs.org/repository/download/apm/senchatouch-v211-0.1d.apm">
+    <version name="4.1.0.0.0" url="http://openacs.org/repository/download/apm/senchatouch-v211-4.1.0.0.0.apm">
         <owner url="mailto:frank.bergmann@project-open.com">Frank Bergmann</owner>
         <summary>Sencha Touch V2.1.1</summary>
         <vendor url="http://www.project-open.com/">]project-open[</vendor>
         <description format="text/plain">Sencha Touch Library</description>
         <maturity>0</maturity>
 
-        <provides url="sencha-touch-v211" version="4.1.0.0.0"/>
+        <provides url="senchatouch-v211" version="4.1.0.0.0"/>
         <provides url="sencha-touch" version="4.1.0.0.0"/>
 
         <callbacks>
