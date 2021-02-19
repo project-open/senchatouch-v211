@@ -1,5 +1,5 @@
 /**
- * Wraps a Google Map in an Ext.Component using the [Google Maps API](http://code.google.com/apis/maps/documentation/v3/introduction.html).
+ * Wraps a Google Map in an Ext.Component using the [Google Maps API](https://code.google.com/apis/maps/documentation/v3/introduction.html).
  *
  * To use this component you must include an additional JavaScript file from Google:
  *
@@ -85,7 +85,7 @@ Ext.define('Ext.Map', {
         /**
          * @cfg {Object} mapOptions
          * MapOptions as specified by the Google Documentation:
-         * [http://code.google.com/apis/maps/documentation/v3/reference.html](http://code.google.com/apis/maps/documentation/v3/reference.html)
+         * [https://code.google.com/apis/maps/documentation/v3/reference.html](https://code.google.com/apis/maps/documentation/v3/reference.html)
          * @accessor
          */
         mapOptions: {}

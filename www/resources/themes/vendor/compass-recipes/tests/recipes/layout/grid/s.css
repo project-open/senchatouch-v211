@@ -35,8 +35,8 @@ h2 {
  * 
  * @link http://foundation.zurb.com/docs/grid.php
  *
- * @author Zurb http://www.zurb.com/ Original concept
- * @author David Kaneda http://www.davidkaneda.com/ Further abstraction
+ * @author Zurb https://www.zurb.com/ Original concept
+ * @author David Kaneda https://www.davidkaneda.com/ Further abstraction
  */
 .clearfix:before, .row:before, .clearfix:after, .row:after {
   content: "";

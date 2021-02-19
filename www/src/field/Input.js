@@ -228,7 +228,7 @@ Ext.define('Ext.field.Input', {
         /**
          * @cfg {Boolean} [disabled=false] `true` to disable the field.
          *
-         * Be aware that conformant with the [HTML specification](http://www.w3.org/TR/html401/interact/forms.html),
+         * Be aware that conformant with the [HTML specification](https://www.w3.org/TR/html401/interact/forms.html),
          * disabled Fields will not be {@link Ext.form.Panel#method-submit submitted}.
          * @accessor
          */

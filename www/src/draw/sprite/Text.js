@@ -168,7 +168,7 @@ Ext.define("Ext.draw.sprite.Text", {
             updaters: {
                 "font-short-hand": (function (dispatcher) {
                     return function (attrs) {
-                        // TODO: Do this according to http://www.w3.org/TR/CSS21/fonts.html#font-shorthand
+                        // TODO: Do this according to https://www.w3.org/TR/CSS21/fonts.html#font-shorthand
                         var value = attrs.font,
                             parts, part, i, ln, dispKey;
                         value = value.replace(Ext.draw.sprite.Text.shortHand1Re, function (a, arg1) {

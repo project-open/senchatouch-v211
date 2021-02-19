@@ -1,12 +1,12 @@
 /*
-    http://www.JSON.org/json2.js
+    https://www.JSON.org/json2.js
     2010-03-20
 
     Public Domain.
 
     NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
 
-    See http://www.JSON.org/js.html
+    See https://www.JSON.org/js.html
 
 
     This code should be minified before deployment.
@@ -486,7 +486,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
  * @class Ext.util.JSON
  * Modified version of Douglas Crockford"s json.js that doesn"t
  * mess with the Object prototype
- * http://www.json.org/js.html
+ * https://www.json.org/js.html
  * @singleton
  * @ignore
  */

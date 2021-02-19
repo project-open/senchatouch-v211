@@ -12,7 +12,7 @@
             },
             {
                 "text": "The Watch List",
-                "url": "http://www.watchlistapp.com",
+                "url": "https://www.watchlistapp.com",
                 "iconLocation": "watchlist",
                 "device": "tablet",
                 "desc": "An Facebook example with Phone and Tablet views backed by Node.js and MongoDB.",

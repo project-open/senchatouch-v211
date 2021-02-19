@@ -16,7 +16,7 @@ Ext.define('GeoCon.controller.Committee', {
     onCommitteeTap: function(dataview, index, target, record) {
         Ext.Msg.confirm("Confirmation", "This link will open in a new window. Are you sure?", function(result) {
             if (result == 'yes') {
-                window.location = 'http://www.govtrack.us/congress/committee.xpd?id=' + record.getId();
+                window.location = 'https://www.govtrack.us/congress/committee.xpd?id=' + record.getId();
             }
         });
     }

@@ -1,6 +1,6 @@
 /**
  * Class representing a path.
- * Designed to be compatible with [CanvasPathMethods](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#canvaspathmethods)
+ * Designed to be compatible with [CanvasPathMethods](https://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#canvaspathmethods)
  * and will hopefully be replaced by the browsers' implementation of the Path object.
  */
 Ext.define("Ext.draw.Path", {
@@ -251,7 +251,7 @@ Ext.define("Ext.draw.Path", {
     /**
      * Create an elliptic arc.
      *
-     * See [the whatwg reference of ellipse](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-context-2d-ellipse).
+     * See [the whatwg reference of ellipse](https://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-context-2d-ellipse).
      *
      * @param cx
      * @param cy
@@ -405,7 +405,7 @@ Ext.define("Ext.draw.Path", {
     },
 
     /**
-     * [http://www.w3.org/TR/SVG/implnote.html#ArcImplementationNotes](http://www.w3.org/TR/SVG/implnote.html#ArcImplementationNotes)
+     * [https://www.w3.org/TR/SVG/implnote.html#ArcImplementationNotes](https://www.w3.org/TR/SVG/implnote.html#ArcImplementationNotes)
      * @param rx
      * @param ry
      * @param rotation Differ from svg spec, this is radian.

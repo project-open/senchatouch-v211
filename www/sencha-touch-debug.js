@@ -3,7 +3,7 @@ This file is part of Sencha Touch 2.1
 
 Copyright (c) 2011-2013 Sencha Inc
 
-Contact:  http://www.sencha.com/contact
+Contact:  https://www.sencha.com/contact
 
 GNU General Public License Usage
 This file may be used under the terms of the GNU General Public License version 3.0 as
@@ -11,10 +11,10 @@ published by the Free Software Foundation and appearing in the file LICENSE incl
 packaging of this file.
 
 Please review the following information to ensure the GNU General Public License version 3.0
-requirements will be met: http://www.gnu.org/copyleft/gpl.html.
+requirements will be met: https://www.gnu.org/copyleft/gpl.html.
 
 If you are unsure which license is appropriate for your use, please contact the sales department
-at http://www.sencha.com/contact.
+at https://www.sencha.com/contact.
 
 Build date: 2013-02-05 12:25:50 (3ba7c63bea96e5ea776e2bbd67cfb0aa01e43322)
 */
@@ -3525,7 +3525,7 @@ Ext.bind = Ext.Function.alias(Ext.Function, 'bind');
  * @class Ext.JSON
  * Modified version of Douglas Crockford's json.js that doesn't
  * mess with the Object prototype.
- * [http://www.json.org/js.html](http://www.json.org/js.html)
+ * [https://www.json.org/js.html](https://www.json.org/js.html)
  * @singleton
  */
 Ext.JSON = new(function() {
@@ -10970,7 +10970,7 @@ Ext.define('Ext.env.Feature', {
  *
  * Provides functionality to select elements on the page based on a CSS selector. Delegates to
  * document.querySelectorAll. More information can be found at
- * [http://www.w3.org/TR/css3-selectors/](http://www.w3.org/TR/css3-selectors/)
+ * [https://www.w3.org/TR/css3-selectors/](https://www.w3.org/TR/css3-selectors/)
  *
  * All selectors, attribute filters and pseudos below can be combined infinitely in any order. For example
  * `div.foo:nth-child(odd)[@foo=bar].bar:first` would be a perfectly valid selector.
@@ -11189,8 +11189,8 @@ Ext.define('Ext.dom.Query', {
  *     var html = '"{0}" href="{1}" class="nav">{2}';
  *
  *     var tpl = new Ext.DomHelper.createTemplate(html);
- *     tpl.append('blog-roll', ['link1', 'http://www.tommymaintz.com/', "Tommy's Site"]);
- *     tpl.append('blog-roll', ['link2', 'http://www.avins.org/', "Jamie's Site"]);
+ *     tpl.append('blog-roll', ['link1', 'https://www.tommymaintz.com/', "Tommy's Site"]);
+ *     tpl.append('blog-roll', ['link2', 'https://www.avins.org/', "Jamie's Site"]);
  *
  * The same example using named parameters:
  *
@@ -11199,12 +11199,12 @@ Ext.define('Ext.dom.Query', {
  *     var tpl = new Ext.DomHelper.createTemplate(html);
  *     tpl.append('blog-roll', {
  *         id: 'link1',
- *         url: 'http://www.tommymaintz.com/',
+ *         url: 'https://www.tommymaintz.com/',
  *         text: "Tommy's Site"
  *     });
  *     tpl.append('blog-roll', {
  *         id: 'link2',
- *         url: 'http://www.avins.org/',
+ *         url: 'https://www.avins.org/',
  *         text: "Jamie's Site"
  *     });
  *

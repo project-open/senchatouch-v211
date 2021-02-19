@@ -3,7 +3,7 @@ This file is part of Sencha Touch 2.1
 
 Copyright (c) 2011-2013 Sencha Inc
 
-Contact:  http://www.sencha.com/contact
+Contact:  https://www.sencha.com/contact
 
 GNU General Public License Usage
 This file may be used under the terms of the GNU General Public License version 3.0 as
@@ -11,10 +11,10 @@ published by the Free Software Foundation and appearing in the file LICENSE incl
 packaging of this file.
 
 Please review the following information to ensure the GNU General Public License version 3.0
-requirements will be met: http://www.gnu.org/copyleft/gpl.html.
+requirements will be met: https://www.gnu.org/copyleft/gpl.html.
 
 If you are unsure which license is appropriate for your use, please contact the sales department
-at http://www.sencha.com/contact.
+at https://www.sencha.com/contact.
 
 Build date: 2013-02-05 12:25:50 (3ba7c63bea96e5ea776e2bbd67cfb0aa01e43322)
 */

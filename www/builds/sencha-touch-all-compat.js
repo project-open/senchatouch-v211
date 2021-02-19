@@ -3,7 +3,7 @@ This file is part of Sencha Touch 2.1
 
 Copyright (c) 2011-2013 Sencha Inc
 
-Contact:  http://www.sencha.com/contact
+Contact:  https://www.sencha.com/contact
 
 GNU General Public License Usage
 This file may be used under the terms of the GNU General Public License version 3.0 as
@@ -11,10 +11,10 @@ published by the Free Software Foundation and appearing in the file LICENSE incl
 packaging of this file.
 
 Please review the following information to ensure the GNU General Public License version 3.0
-requirements will be met: http://www.gnu.org/copyleft/gpl.html.
+requirements will be met: https://www.gnu.org/copyleft/gpl.html.
 
 If you are unsure which license is appropriate for your use, please contact the sales department
-at http://www.sencha.com/contact.
+at https://www.sencha.com/contact.
 
 Build date: 2013-02-05 12:25:50 (3ba7c63bea96e5ea776e2bbd67cfb0aa01e43322)
 */
@@ -3525,7 +3525,7 @@ Ext.bind = Ext.Function.alias(Ext.Function, 'bind');
  * @class Ext.JSON
  * Modified version of Douglas Crockford's json.js that doesn't
  * mess with the Object prototype.
- * [http://www.json.org/js.html](http://www.json.org/js.html)
+ * [https://www.json.org/js.html](https://www.json.org/js.html)
  * @singleton
  */
 Ext.JSON = new(function() {
@@ -11384,7 +11384,7 @@ Ext.define('Ext.env.Feature', {
  *
  * Provides functionality to select elements on the page based on a CSS selector. Delegates to
  * document.querySelectorAll. More information can be found at
- * [http://www.w3.org/TR/css3-selectors/](http://www.w3.org/TR/css3-selectors/)
+ * [https://www.w3.org/TR/css3-selectors/](https://www.w3.org/TR/css3-selectors/)
  *
  * All selectors, attribute filters and pseudos below can be combined infinitely in any order. For example
  * `div.foo:nth-child(odd)[@foo=bar].bar:first` would be a perfectly valid selector.
@@ -11603,8 +11603,8 @@ Ext.define('Ext.dom.Query', {
  *     var html = '"{0}" href="{1}" class="nav">{2}';
  *
  *     var tpl = new Ext.DomHelper.createTemplate(html);
- *     tpl.append('blog-roll', ['link1', 'http://www.tommymaintz.com/', "Tommy's Site"]);
- *     tpl.append('blog-roll', ['link2', 'http://www.avins.org/', "Jamie's Site"]);
+ *     tpl.append('blog-roll', ['link1', 'https://www.tommymaintz.com/', "Tommy's Site"]);
+ *     tpl.append('blog-roll', ['link2', 'https://www.avins.org/', "Jamie's Site"]);
  *
  * The same example using named parameters:
  *
@@ -11613,12 +11613,12 @@ Ext.define('Ext.dom.Query', {
  *     var tpl = new Ext.DomHelper.createTemplate(html);
  *     tpl.append('blog-roll', {
  *         id: 'link1',
- *         url: 'http://www.tommymaintz.com/',
+ *         url: 'https://www.tommymaintz.com/',
  *         text: "Tommy's Site"
  *     });
  *     tpl.append('blog-roll', {
  *         id: 'link2',
- *         url: 'http://www.avins.org/',
+ *         url: 'https://www.avins.org/',
  *         text: "Jamie's Site"
  *     });
  *
@@ -17973,7 +17973,7 @@ Ext.define('Ext.ComponentManager', {
  *     });
  *
  * The date parsing and formatting syntax contains a subset of
- * [PHP's `date()` function](http://www.php.net/date), and the formats that are
+ * [PHP's `date()` function](https://www.php.net/date), and the formats that are
  * supported will provide results equivalent to their PHP versions.
  *
  * The following is a list of all currently supported formats:
@@ -18028,13 +18028,13 @@ Format  Description                                                             
            of digits allowed), and may be delimited by either a '.' or a ','      1998-04-15T20:24:31.2468Z or
         Refer to the examples on the right for the various levels of              1999-03-14T20:24:32Z or
         date-time granularity which are supported, or see                         2000-02-13T21:25:33
-        http://www.w3.org/TR/NOTE-datetime for more info.                         2001-01-12 22:26:34
+        https://www.w3.org/TR/NOTE-datetime for more info.                         2001-01-12 22:26:34
   U     Seconds since the Unix Epoch (January 1 1970 00:00:00 GMT)                1193432466 or -2138434463
   MS    Microsoft AJAX serialized dates                                           \/Date(1238606590509)\/ (i.e. UTC milliseconds since epoch) or
                                                                                   \/Date(1238606590509+0800)\/
 </pre>
  *
- * For more information on the ISO 8601 date/time format, see [http://www.w3.org/TR/NOTE-datetime](http://www.w3.org/TR/NOTE-datetime).
+ * For more information on the ISO 8601 date/time format, see [https://www.w3.org/TR/NOTE-datetime](https://www.w3.org/TR/NOTE-datetime).
  *
  * Example usage (note that you must escape format specifiers with '\\' to render them as character literals):
  *
@@ -18081,7 +18081,7 @@ Format  Description                                                             
 
 /*
  * Most of the date-formatting functions below are the excellent work of Baron Schwartz.
- * see http://www.xaprb.com/blog/2005/12/12/javascript-closures-for-runtime-efficiency/)
+ * see https://www.xaprb.com/blog/2005/12/12/javascript-closures-for-runtime-efficiency/)
  * They generate precompiled functions from format patterns instead of parsing and
  * processing each pattern every time a date is formatted. These functions are available
  * on every Date object.
@@ -19075,7 +19075,7 @@ Ext.DateExtras = {
      * @method
      */
     getWeekOfYear : (function() {
-        // adapted from http://www.merlyn.demon.co.uk/weekcalc.htm
+        // adapted from https://www.merlyn.demon.co.uk/weekcalc.htm
         var ms1d = 864e5, // milliseconds in a day
             ms7d = 7 * ms1d; // milliseconds in a week
 
@@ -19286,7 +19286,7 @@ Ext.DateExtras = {
 
         if (date.getDate() != d) { // account for DST (i.e. day of month changed when setting hour = 0)
             // note: DST adjustments are assumed to occur in multiples of 1 hour (this is almost always the case)
-            // refer to http://www.timeanddate.com/time/aboutdst.html for the (rare) exceptions to this rule
+            // refer to https://www.timeanddate.com/time/aboutdst.html for the (rare) exceptions to this rule
 
             // increment hour until cloned date == current date
             for (var hr = 1, c = utilDate.add(date, Ext.Date.HOUR, hr); c.getDate() != d; hr++, c = utilDate.add(date, Ext.Date.HOUR, hr));
@@ -35598,17 +35598,17 @@ Ext.define('Ext.data.Connection', {
          * Fires if the request was successfully completed.
          * @param {Ext.data.Connection} conn This Connection object.
          * @param {Object} response The XHR object containing the response data.
-         * See [The XMLHttpRequest Object](http://www.w3.org/TR/XMLHttpRequest/) for details.
+         * See [The XMLHttpRequest Object](https://www.w3.org/TR/XMLHttpRequest/) for details.
          * @param {Object} options The options config object passed to the {@link #request} method.
          */
         /**
          * @event requestexception
          * Fires if an error HTTP status was returned from the server.
-         * See [HTTP Status Code Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+         * See [HTTP Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
          * for details of HTTP status codes.
          * @param {Ext.data.Connection} conn This Connection object.
          * @param {Object} response The XHR object containing the response data.
-         * See [The XMLHttpRequest Object](http://www.w3.org/TR/XMLHttpRequest/) for details.
+         * See [The XMLHttpRequest Object](https://www.w3.org/TR/XMLHttpRequest/) for details.
          * @param {Object} options The options config object passed to the {@link #request} method.
          */
         this.requests = {};
@@ -35658,7 +35658,7 @@ Ext.define('Ext.data.Connection', {
      * @param {Object} options.callback.options The parameter to the request call.
      * @param {Boolean} options.callback.success `true` if the request succeeded.
      * @param {Object} options.callback.response The XMLHttpRequest object containing the response data.
-     * See [www.w3.org/TR/XMLHttpRequest/](http://www.w3.org/TR/XMLHttpRequest/) for details about
+     * See [www.w3.org/TR/XMLHttpRequest/](https://www.w3.org/TR/XMLHttpRequest/) for details about
      * accessing elements of the response.
      *
      * @param {Function} options.success The function to be called upon success of the request.
@@ -35704,9 +35704,9 @@ Ext.define('Ext.data.Connection', {
      * technologies (notably JEE) may require some custom processing in order to retrieve parameter names
      * and parameter values from the packet content.
      *
-     * [target]: http://www.w3.org/TR/REC-html40/present/frames.html#adef-target
-     * [Content-Type]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.17
-     * [multipart/form]: http://www.faqs.org/rfcs/rfc2388.html
+     * [target]: https://www.w3.org/TR/REC-html40/present/frames.html#adef-target
+     * [Content-Type]: https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.17
+     * [multipart/form]: https://www.faqs.org/rfcs/rfc2388.html
      *
      * @param {Object} options.headers Request headers to set for the request.
      *
@@ -38251,7 +38251,7 @@ Ext.define('Ext.Decorator', {
  *
  *     @example miniphone
  *     var img = Ext.create('Ext.Img', {
- *         src: 'http://www.sencha.com/assets/images/sencha-avatar-64x64.png',
+ *         src: 'https://www.sencha.com/assets/images/sencha-avatar-64x64.png',
  *         height: 64,
  *         width: 64
  *     });
@@ -38266,7 +38266,7 @@ Ext.define('Ext.Decorator', {
  *         items: [
  *             {
  *                 xtype: 'image',
- *                 src: 'http://www.sencha.com/assets/images/sencha-avatar-64x64.png',
+ *                 src: 'https://www.sencha.com/assets/images/sencha-avatar-64x64.png',
  *                 flex: 1
  *             },
  *             {
@@ -39098,7 +39098,7 @@ Ext.define('Ext.util.Geolocation', {
 });
 
 /**
- * Wraps a Google Map in an Ext.Component using the [Google Maps API](http://code.google.com/apis/maps/documentation/v3/introduction.html).
+ * Wraps a Google Map in an Ext.Component using the [Google Maps API](https://code.google.com/apis/maps/documentation/v3/introduction.html).
  *
  * To use this component you must include an additional JavaScript file from Google:
  *
@@ -39184,7 +39184,7 @@ Ext.define('Ext.Map', {
         /**
          * @cfg {Object} mapOptions
          * MapOptions as specified by the Google Documentation:
-         * [http://code.google.com/apis/maps/documentation/v3/reference.html](http://code.google.com/apis/maps/documentation/v3/reference.html)
+         * [https://code.google.com/apis/maps/documentation/v3/reference.html](https://code.google.com/apis/maps/documentation/v3/reference.html)
          * @accessor
          */
         mapOptions: {}
@@ -40149,7 +40149,7 @@ Ext.define('Ext.field.Input', {
         /**
          * @cfg {Boolean} [disabled=false] `true` to disable the field.
          *
-         * Be aware that conformant with the [HTML specification](http://www.w3.org/TR/html401/interact/forms.html),
+         * Be aware that conformant with the [HTML specification](https://www.w3.org/TR/html401/interact/forms.html),
          * disabled Fields will not be {@link Ext.form.Panel#method-submit submitted}.
          * @accessor
          */
@@ -51158,7 +51158,7 @@ Ext.define('Ext.draw.sprite.Sprite', {
 
 /**
  * Class representing a path.
- * Designed to be compatible with [CanvasPathMethods](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#canvaspathmethods)
+ * Designed to be compatible with [CanvasPathMethods](https://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#canvaspathmethods)
  * and will hopefully be replaced by the browsers' implementation of the Path object.
  */
 Ext.define("Ext.draw.Path", {
@@ -51409,7 +51409,7 @@ Ext.define("Ext.draw.Path", {
     /**
      * Create an elliptic arc.
      *
-     * See [the whatwg reference of ellipse](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-context-2d-ellipse).
+     * See [the whatwg reference of ellipse](https://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-context-2d-ellipse).
      *
      * @param cx
      * @param cy
@@ -51563,7 +51563,7 @@ Ext.define("Ext.draw.Path", {
     },
 
     /**
-     * [http://www.w3.org/TR/SVG/implnote.html#ArcImplementationNotes](http://www.w3.org/TR/SVG/implnote.html#ArcImplementationNotes)
+     * [https://www.w3.org/TR/SVG/implnote.html#ArcImplementationNotes](https://www.w3.org/TR/SVG/implnote.html#ArcImplementationNotes)
      * @param rx
      * @param ry
      * @param rotation Differ from svg spec, this is radian.
@@ -52945,7 +52945,7 @@ Ext.define("Ext.draw.sprite.Text", {
             updaters: {
                 "font-short-hand": (function (dispatcher) {
                     return function (attrs) {
-                        // TODO: Do this according to http://www.w3.org/TR/CSS21/fonts.html#font-shorthand
+                        // TODO: Do this according to https://www.w3.org/TR/CSS21/fonts.html#font-shorthand
                         var value = attrs.font,
                             parts, part, i, ln, dispKey;
                         value = value.replace(Ext.draw.sprite.Text.shortHand1Re, function (a, arg1) {
@@ -56329,7 +56329,7 @@ Ext.define('Ext.draw.engine.Svg', {
                         {
                             tag: 'svg',
                             reference: 'svgElement',
-                            namespace: "http://www.w3.org/2000/svg",
+                            namespace: "https://www.w3.org/2000/svg",
                             version: 1.1,
                             cls: 'x-surface'
                         }
@@ -56356,7 +56356,7 @@ Ext.define('Ext.draw.engine.Svg', {
      * @return {*} The created element.
      */
     createSvgNode: function (type) {
-        var node = document.createElementNS("http://www.w3.org/2000/svg", type);
+        var node = document.createElementNS("https://www.w3.org/2000/svg", type);
         return Ext.get(node);
     },
 
@@ -57589,7 +57589,7 @@ Ext.define('Ext.draw.Component', {
     if (location.search.match('svg')) {
         Ext.draw.Component.prototype.engine = 'Ext.draw.engine.Svg';
     } else if ((Ext.os.is.BlackBerry && Ext.os.version.getMajor() === 10) || (Ext.os.is.Android4 && (Ext.os.version.getMinor() === 1 || Ext.os.version.getMinor() === 2))) {
-        // http://code.google.com/p/android/issues/detail?id=37529
+        // https://code.google.com/p/android/issues/detail?id=37529
         Ext.draw.Component.prototype.engine = 'Ext.draw.engine.Svg';
     }
 });
@@ -87909,7 +87909,7 @@ Ext.define('Ext.data.identifier.Sequential', {
  * higher quality random data. Version 1 UUID's should not be used unless this information
  * can be provided by a server and care should be taken to avoid caching of this data.
  *
- * See [http://www.ietf.org/rfc/rfc4122.txt](http://www.ietf.org/rfc/rfc4122.txt) for details.
+ * See [https://www.ietf.org/rfc/rfc4122.txt](https://www.ietf.org/rfc/rfc4122.txt) for details.
  */
 Ext.define('Ext.data.identifier.Uuid', {
     extend: 'Ext.data.identifier.Simple',
@@ -108596,14 +108596,14 @@ Ext.define('Ext.util.Droppable', {
 });
 
 /*
-    http://www.JSON.org/json2.js
+    https://www.JSON.org/json2.js
     2010-03-20
 
     Public Domain.
 
     NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
 
-    See http://www.JSON.org/js.html
+    See https://www.JSON.org/js.html
 
 
     This code should be minified before deployment.
@@ -109083,7 +109083,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
  * @class Ext.util.JSON
  * Modified version of Douglas Crockford"s json.js that doesn"t
  * mess with the Object prototype
- * http://www.json.org/js.html
+ * https://www.json.org/js.html
  * @singleton
  * @ignore
  */

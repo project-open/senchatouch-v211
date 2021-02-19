@@ -9,7 +9,7 @@ Ext.define('GeoCon.view.legislator.Bio', {
     config: {
 
         tpl: Ext.create('Ext.XTemplate',
-            '<span class="legislator-pic" style="background-image: url(http://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);"></span>',
+            '<span class="legislator-pic" style="background-image: url(https://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);"></span>',
             '<div class="legislator-name">',
                 '<div class="title">{title} {firstname} {middlename} {lastname} ({party})</div>',
                 '<div class="district">{state} {district: this.ordinal}</div>',

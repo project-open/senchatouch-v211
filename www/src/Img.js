@@ -5,7 +5,7 @@
  *
  *     @example miniphone
  *     var img = Ext.create('Ext.Img', {
- *         src: 'http://www.sencha.com/assets/images/sencha-avatar-64x64.png',
+ *         src: 'https://www.sencha.com/assets/images/sencha-avatar-64x64.png',
  *         height: 64,
  *         width: 64
  *     });
@@ -20,7 +20,7 @@
  *         items: [
  *             {
  *                 xtype: 'image',
- *                 src: 'http://www.sencha.com/assets/images/sencha-avatar-64x64.png',
+ *                 src: 'https://www.sencha.com/assets/images/sencha-avatar-64x64.png',
  *                 flex: 1
  *             },
  *             {

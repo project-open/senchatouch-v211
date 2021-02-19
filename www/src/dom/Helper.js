@@ -83,8 +83,8 @@
  *     var html = '"{0}" href="{1}" class="nav">{2}';
  *
  *     var tpl = new Ext.DomHelper.createTemplate(html);
- *     tpl.append('blog-roll', ['link1', 'http://www.tommymaintz.com/', "Tommy's Site"]);
- *     tpl.append('blog-roll', ['link2', 'http://www.avins.org/', "Jamie's Site"]);
+ *     tpl.append('blog-roll', ['link1', 'https://www.tommymaintz.com/', "Tommy's Site"]);
+ *     tpl.append('blog-roll', ['link2', 'https://www.avins.org/', "Jamie's Site"]);
  *
  * The same example using named parameters:
  *
@@ -93,12 +93,12 @@
  *     var tpl = new Ext.DomHelper.createTemplate(html);
  *     tpl.append('blog-roll', {
  *         id: 'link1',
- *         url: 'http://www.tommymaintz.com/',
+ *         url: 'https://www.tommymaintz.com/',
  *         text: "Tommy's Site"
  *     });
  *     tpl.append('blog-roll', {
  *         id: 'link2',
- *         url: 'http://www.avins.org/',
+ *         url: 'https://www.avins.org/',
  *         text: "Jamie's Site"
  *     });
  *

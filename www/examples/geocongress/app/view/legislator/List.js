@@ -12,7 +12,7 @@ Ext.define('GeoCon.view.legislator.List', {
         emptyText: 'Loading list of Legislators...',
         itemTpl: [
             '<div class="legislator-list-item">',
-                '<span class="legislator-pic" style="background-image: url(http://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);"></span>',
+                '<span class="legislator-pic" style="background-image: url(https://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);"></span>',
                 '{lastname}, {firstname} {middlename}',
             '</div>'
         ]

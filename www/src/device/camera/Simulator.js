@@ -7,7 +7,7 @@ Ext.define('Ext.device.camera.Simulator', {
     config: {
         samples: [
             {
-                success: 'http://www.sencha.com/img/sencha-large.png'
+                success: 'https://www.sencha.com/img/sencha-large.png'
             }
         ]
     },

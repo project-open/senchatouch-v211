@@ -37,7 +37,7 @@ Ext.define('Ext.draw.engine.Svg', {
                         {
                             tag: 'svg',
                             reference: 'svgElement',
-                            namespace: "http://www.w3.org/2000/svg",
+                            namespace: "https://www.w3.org/2000/svg",
                             version: 1.1,
                             cls: 'x-surface'
                         }
@@ -64,7 +64,7 @@ Ext.define('Ext.draw.engine.Svg', {
      * @return {*} The created element.
      */
     createSvgNode: function (type) {
-        var node = document.createElementNS("http://www.w3.org/2000/svg", type);
+        var node = document.createElementNS("https://www.w3.org/2000/svg", type);
         return Ext.get(node);
     },
 

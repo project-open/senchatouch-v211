@@ -135,17 +135,17 @@ Ext.define('Ext.data.Connection', {
          * Fires if the request was successfully completed.
          * @param {Ext.data.Connection} conn This Connection object.
          * @param {Object} response The XHR object containing the response data.
-         * See [The XMLHttpRequest Object](http://www.w3.org/TR/XMLHttpRequest/) for details.
+         * See [The XMLHttpRequest Object](https://www.w3.org/TR/XMLHttpRequest/) for details.
          * @param {Object} options The options config object passed to the {@link #request} method.
          */
         /**
          * @event requestexception
          * Fires if an error HTTP status was returned from the server.
-         * See [HTTP Status Code Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+         * See [HTTP Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
          * for details of HTTP status codes.
          * @param {Ext.data.Connection} conn This Connection object.
          * @param {Object} response The XHR object containing the response data.
-         * See [The XMLHttpRequest Object](http://www.w3.org/TR/XMLHttpRequest/) for details.
+         * See [The XMLHttpRequest Object](https://www.w3.org/TR/XMLHttpRequest/) for details.
          * @param {Object} options The options config object passed to the {@link #request} method.
          */
         this.requests = {};
@@ -195,7 +195,7 @@ Ext.define('Ext.data.Connection', {
      * @param {Object} options.callback.options The parameter to the request call.
      * @param {Boolean} options.callback.success `true` if the request succeeded.
      * @param {Object} options.callback.response The XMLHttpRequest object containing the response data.
-     * See [www.w3.org/TR/XMLHttpRequest/](http://www.w3.org/TR/XMLHttpRequest/) for details about
+     * See [www.w3.org/TR/XMLHttpRequest/](https://www.w3.org/TR/XMLHttpRequest/) for details about
      * accessing elements of the response.
      *
      * @param {Function} options.success The function to be called upon success of the request.
@@ -241,9 +241,9 @@ Ext.define('Ext.data.Connection', {
      * technologies (notably JEE) may require some custom processing in order to retrieve parameter names
      * and parameter values from the packet content.
      *
-     * [target]: http://www.w3.org/TR/REC-html40/present/frames.html#adef-target
-     * [Content-Type]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.17
-     * [multipart/form]: http://www.faqs.org/rfcs/rfc2388.html
+     * [target]: https://www.w3.org/TR/REC-html40/present/frames.html#adef-target
+     * [Content-Type]: https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.17
+     * [multipart/form]: https://www.faqs.org/rfcs/rfc2388.html
      *
      * @param {Object} options.headers Request headers to set for the request.
      *

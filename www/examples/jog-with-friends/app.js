@@ -16,7 +16,7 @@ to a public server. Below we outline how to do so using free accounts from Herok
 
 We assume you're familiar with Git and have it installed.
 
-  1. Visit http://www.heroku.com and sign up.
+  1. Visit https://www.heroku.com and sign up.
   2. Download the Heroku command line toolbelt from http://toolbelt.herokuapp.com/
   3. From your command line, type `heroku login` and enter your account details.
   4. Change to the server-side subdirectory of this example.
